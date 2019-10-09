@@ -25,5 +25,6 @@ Route::get('/dashboard', 'TestController@dashboard')->name('dashboard');
 
 
 Route::get('/admin/accounts', 'AccountsController@reimbursement')->name('reimbursement');
+Route::get('/admin/accounts', 'AccountsController@reimbursement')->name('reimbursement');
 
 Route::resource('/admin/categories', 'CategoriesController');
