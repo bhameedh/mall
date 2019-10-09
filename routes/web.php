@@ -28,3 +28,12 @@ Route::get('/admin/accounts', 'AccountsController@reimbursement')->name('reimbur
 Route::get('/admin/accounts', 'AccountsController@reimbursement')->name('reimbursement');
 
 Route::resource('/admin/categories', 'CategoriesController');
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| This is test github
+|
+*/
